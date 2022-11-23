@@ -38,25 +38,9 @@ const table = document.querySelector("[data-table]");
 //Update - PUT/PATCH
 //Delete - DELETE
 
-const listaCLientes = () => {
-    const promise = new promise((resolve, reject) => {
-        const http = new XMLHttpRequest();
-        http.open("GET", "http://localhost:3000/perfil");
-
-        http.send();
-
-        http.onload = () =>{
-            const response = JSON.parse(http.response);
-            if(http.status >= 400){
-                reject(response)
-            }else{
-                resolve(response)
-            };
-        };
-    });
-
-    return promise;
-};
+//Fetch API
+const listaCLientes = () => 
+    fetch('http://localhost:3000/perfil').then((respuesta) => respuesta.json());
 
 listaCLientes().then((data) => {
     data.forEach((perfil) => {
