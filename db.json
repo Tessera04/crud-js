@@ -4,6 +4,21 @@
       "nombre": "Matias Gonzalez",
       "email": "matute_11@hotmail.com",
       "id": 1
+    },
+    {
+      "nombre": "Mario Rodolfo",
+      "email": "asasa@sas",
+      "id": "6933fab2-c785-4308-a030-2cbfa38356ec"
+    },
+    {
+      "nombre": "Elu",
+      "email": "matias@elu.com",
+      "id": "77453193-c776-4bd3-b8fe-88270fee738e"
+    },
+    {
+      "nombre": "Eluney",
+      "email": "d",
+      "id": "d2a4058a-2f95-43c4-86c4-c1734e0a0f53"
     }
   ]
 }
